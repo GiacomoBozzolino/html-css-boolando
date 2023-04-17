@@ -71,13 +71,54 @@ main{
 }
 
 .model{
-    width: 350px;
+    width: 100%;
 }
 .content{
     position: relative;
 }
 
+.red-tag{
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    background-color: red;
+    padding: 2px 5px;
+}
 
+
+.green-tag{
+    position: absolute;
+    bottom:100px;
+    left: 50px;
+    color: white;
+    background-color:darkgreen;
+    padding: 2px 5px;
+}
+
+.favorites-tag{
+    position: absolute;
+    top: 2%;
+    right:0;
+    color: rgb(0, 0, 0);
+    background-color:white;
+    padding: 7px;
+}
+
+.price {
+    display: inline-block;
+}
+
+.new{
+    color: red;
+    margin-right: 5px;
+}
+
+.old{
+    text-decoration: line-through;
+}
+/* .old-price{
+    display: inline-block;
+} */
 
 /* CLASSI FOOTER */
 footer{

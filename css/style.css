@@ -19,11 +19,9 @@ header{
     z-index: 100;
 }
 
-
 .logo{
     width: 20%;
 }
-
 
 .nav.content{
     text-align: center;
@@ -47,14 +45,11 @@ header{
 
 .column-25{
     width: 25%;
-    margin: 0 10px;
-     
+    margin: 0 10px;  
 }
 
 .column-50{
-    width: 50%;
-    
-    
+    width: 50%; 
 }
 
 /* CLASSI MAIN */
@@ -62,6 +57,7 @@ header{
     width: calc(100%/3 - 20px);
     margin: 20px 10px;
 }
+
 h4{
     font-size: 15px;
 }
@@ -72,7 +68,6 @@ h4{
 .row {
     display: flex;
     flex-wrap: wrap;
-   
     height:100%;   
 }
 
@@ -98,7 +93,6 @@ main{
     display: none;
 
 }
-
 
 .content{
     position: relative;
@@ -170,7 +164,6 @@ margin-top: 30px;
 .column-100 {
     width: 100%;
   
-
 }
 
 .content-footer{

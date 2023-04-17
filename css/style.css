@@ -1,0 +1,36 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 75px;
+    background-color: orange;
+    width: 100%;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.column-25{
+    width: 25%;
+    background-color: brown;
+    height: 100%;
+}
+
+.column-50{
+    width: 50%;
+    background-color: rgb(68, 226, 47);
+    height: 100%;
+}

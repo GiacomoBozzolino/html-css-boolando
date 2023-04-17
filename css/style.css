@@ -59,7 +59,6 @@ header{
     margin: 10px;
 }
 
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -67,14 +66,30 @@ header{
     height:100%;   
 }
 
-
 main{
     margin-top: 120px;
 }
 
 .model{
     width: 100%;
+    display: block;
 }
+
+.hide{
+    display: none;
+    width: 100%
+}
+
+.card:hover .hide{
+    display: block;
+}
+
+.card:hover .model{
+    display: none;
+
+}
+
+
 .content{
     position: relative;
 }
@@ -86,7 +101,6 @@ main{
     background-color: red;
     padding: 2px 5px;
 }
-
 
 .green-tag{
     position: absolute;
